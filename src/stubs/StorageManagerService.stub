@@ -1,0 +1,18 @@
+<?php
+
+
+namespace App\Services\StorageManagerService;
+
+
+use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\Models\Media;
+use Codegaf\StorageManager\StorageManagerServiceBase;
+
+
+class StorageManagerService extends StorageManagerServiceBase {
+
+    public function checkPermissions(Media $media) {
+        return true;
+    }
+
+}
