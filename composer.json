@@ -18,7 +18,7 @@
   "require": {
     "php": "^8.0.2",
     "laravel/framework": ">=7.0",
-    "spatie/laravel-medialibrary": "^7.0.0",
+    "spatie/laravel-medialibrary": "^10.3.2",
     "spatie/laravel-permission": "*"
   },
   "require-dev": {
